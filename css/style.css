@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif; 
+    background-color: #6e9e41; 
+    box-sizing: border-box;
+  }
+   
+  form{
+     background-color: rgb(236, 232, 232);
+     border-radius: 10px;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+     padding: 20px;
+     margin: 0 auto;
+     width: 300px;
+  }
+  input{
+     border-radius: 3px;
+     outline: none;
+     margin-bottom: 10px;
+   
+     width: 280px;
+     height: 30px;
+  }
+  .inputcss{
+     border: solid 1px #ccc;
+     padding: 10px;
+  }
+  .inputcss:focus{
+     border-color:  rgb(124, 193, 250);
+  }
+  .center-content{
+     text-align: center;
+  }
+  h1{
+     text-align: center;
+     color: rgb(255, 255, 255);
+  }
+  .btn-enviar{
+      border: solid 1px #ccc;
+     background-color: rgb(255, 255, 255);
+  }

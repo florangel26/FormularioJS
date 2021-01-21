@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FORMULARIO DE REGISTRO</title>
+</head>
+<body>
+  
+    <h1>Formulario de registro</h1>
+    <form name="formularioContacto" class="form-register"  onsubmit="return validar()">
+       <div class="contenedor-inputs">
+           <!-- required sirve para evitar que se deje el campo vacio -->
+           <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputcss" required>
+           <input type="text" id="apellidos" name="apellidos" placeholder="apellidos" class="inputcss" required >
+           <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss" required>
+           <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="inputcss" required>
+           <input type="password" id="Contraseña" name="Contraseña" placeholder="Contraseña" class="inputcss" required>
+           <input type="text" id="telefono" name="telefono" onkeypress="return solonumeros(event)"  placeholder="Teléfono (911111111)" class="inputcss" required>
+           <input type="submit" value="Registrar"  class="btn-enviar ConfirmDemo">
+         <!-- importante los type para determinar que debe llevar los campos  -->
+       </div>
+    </form>
+
+
+
+    <script src="js/script.js" ></script>
+</body>
+</html>
